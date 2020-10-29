@@ -1,0 +1,53 @@
+/* img {
+    height: 100px;
+    width: auto;
+    align-self: center;
+} */
+
+.post.d-flex.col-12.p-0 {
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: white;
+}
+
+li.crop {
+    list-style: none;
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.crop img{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.col-lg-2 {
+    background-color: white;
+    margin: 0;
+}
+
+.col-lg-2 .col-lg {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.col-lg.my-2 h2{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}

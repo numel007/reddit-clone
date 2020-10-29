@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>r/all</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand navbar-light">
+        <img src="/thumbnails/reddit.svg" style="width: 35px; height: auto;" class="mr-2">
+        <a href="#" class="navbar-brand">reddit</a>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.reddit.com/r/all/">All</a>
+            </li>
+            <li class="nav-item">
+                <select name="subreddits" id="subreddits" class="nav-link" style="width: 1px;">
+                    <option value="Home">Home</option>
+                    <option value="Popular">Popular</option>
+                    <option value="All">All</option>
+                    <option value="Top Communities">Top Communities</option>
+                </select>
+            </li>
+            <form class="form-inline mx-2">
+                <input class="form-control" type="search" placeholder="Search">
+            </form>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="https://www.reddit.com/r/popular/" class="nav-item nav-link">Popular</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.reddit.com/r/all/" class="nav-item nav-link">All</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.reddit.com/chat" class="nav-item nav-link">Chat</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.reddit.com/message/inbox" class="nav-item nav-link">Messages</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-item nav-link">Create Post</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-item nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+                <select name="profile-settings" id="profile-settings" class="nav-link" style="width: 1px;">
+                    <option value="My Profile">My Profile</option>
+                    <option value="Create An Avatar">Create An Avatar</option>
+                    <option value="User Settings">User Settings</option>
+                    <option value="Reddit Coints">Reddit Coints</option>
+                    <option value="Reddit Premium">Reddit Premium</option>
+                    <option value="Help Center">Help Center</option>
+                    <option value="Log Out">Log Out</option>
+                </select>
+            </li>
+            <img src="/thumbnails/mail.png" style="height: max-content; width: auto;">
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand navbar-light my-2 rounded">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hot</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Top</a>
+                </li>
+            </ul>
+            <li class="nav-item" style="list-style: none;">
+                <select name="subreddits" id="subreddits" class="nav-link">
+                    <option value="Card">Card</option>
+                    <option value="Classic">Classic</option>
+                    <option value="Compact">Compact</option>
+                </select>
+            </li>
+        </nav>
+        <div class="row ">
+            <div class="col-lg-10 ">
+                <div class="post d-flex col-12 p-0 mt-0 ">
+                    <li class="crop">
+                        <img src="/thumbnails/1.jpg" class="align-item-center">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">White House lists ending Covid-19 pandemic as an accomplishment despite cases
+                            spiking to record levels</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/2.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">What happens when you have heated tile flooring</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/3.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">Ted Cruz is asked why national debt is paramount to Republicans only when a
+                            Democrat is in the White House</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/4.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">Nigerian judge throws out case against 47 men for homosexuality</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/5.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">The irony..</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/6.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">So what do you all think of my Spooky Arch?</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/7.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">President Trumps campaign website hacked</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="post d-flex col-12 p-0 mt-0">
+                    <li class="crop">
+                        <img src="/thumbnails/8.jpg">
+                    </li>
+                    <div class="text-navbar">
+                        <p class="col">This Transformers robot actually living up to its name</p>
+                        <nav class="navbar navbar-expand navbar-light ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Share</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Save</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Report</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-2">
+                <div class="container-fluid">
+                    <div class="col-lg my-2 py-2">
+                        <h2>Fitness communities that know how to work it</h2>
+                        <ul>
+                            <li>
+                                <a href="">r/loseit</a>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/GetMotivated</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/crossfit</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/vegan</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/running</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg my-2 py-2">
+                        <h2>Trending Communities</h2>
+                        <ul>
+                            <li>
+                                <a href="">r/ofcoursethatsathing</a>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/Catsmirin</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/CDProjektRed</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/snoovatars</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">r/TalesFromTheCustomer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg my-2">
+                        <h2>test 3</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti facilis omnis
+                            necessitatibus
+                            quas?
+                            Labore dolore delectus veritatis deserunt quos laborum non, id similique, inventore officia
+                            perspiciatis nemo aperiam soluta doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
